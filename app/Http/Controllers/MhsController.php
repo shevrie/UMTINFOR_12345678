@@ -2,7 +2,7 @@
 
 namespace App\Http\Controllers;
 
-use App\Mhs;
+use App\mhs;
 use Illuminate\Http\Request;
 
 class MhsController extends Controller
@@ -14,8 +14,7 @@ class MhsController extends Controller
      */
     public function index()
     {
-        //
-        return "Index Mahasiswa";
+        return "Halaman Index Mahasiswa";
     }
 
     /**
@@ -42,10 +41,10 @@ class MhsController extends Controller
     /**
      * Display the specified resource.
      *
-     * @param  \App\Mhs  $mhs
+     * @param  \App\mhs  $mhs
      * @return \Illuminate\Http\Response
      */
-    public function show(Mhs $mhs)
+    public function show(mhs $mhs)
     {
         //
     }
@@ -53,10 +52,10 @@ class MhsController extends Controller
     /**
      * Show the form for editing the specified resource.
      *
-     * @param  \App\Mhs  $mhs
+     * @param  \App\mhs  $mhs
      * @return \Illuminate\Http\Response
      */
-    public function edit(Mhs $mhs)
+    public function edit(mhs $mhs)
     {
         //
     }
@@ -65,10 +64,10 @@ class MhsController extends Controller
      * Update the specified resource in storage.
      *
      * @param  \Illuminate\Http\Request  $request
-     * @param  \App\Mhs  $mhs
+     * @param  \App\mhs  $mhs
      * @return \Illuminate\Http\Response
      */
-    public function update(Request $request, Mhs $mhs)
+    public function update(Request $request, mhs $mhs)
     {
         //
     }
@@ -76,10 +75,10 @@ class MhsController extends Controller
     /**
      * Remove the specified resource from storage.
      *
-     * @param  \App\Mhs  $mhs
+     * @param  \App\mhs  $mhs
      * @return \Illuminate\Http\Response
      */
-    public function destroy(Mhs $mhs)
+    public function destroy(mhs $mhs)
     {
         //
     }
